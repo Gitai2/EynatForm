@@ -5,7 +5,7 @@ name: Deploy Python Function App to Azure
 on:
   push:
     branches:
-      - main
+      - master
   workflow_dispatch:
 
 env:
