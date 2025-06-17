@@ -1,0 +1,7 @@
+# EynatFormFunction/requirements.txt
+
+azure-functions
+fastapi
+uvicorn
+pydantic
+pymssql

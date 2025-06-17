@@ -1,0 +1,28 @@
+# EYNATFORM/.gitignore
+
+# Security - NEVER commit local settings with secrets
+local.settings.json
+.env
+
+# Python virtual environment
+.venv/
+venv/
+ENV/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code specific files (user settings)
+.vscode/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
